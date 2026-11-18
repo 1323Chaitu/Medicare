@@ -1,0 +1,216 @@
+{
+  "users": [
+    {
+      "name": "Chaithanya",
+      "email": "ccc.chaitu2306@gmail.com",
+      "phone": "8074335748",
+      "password": "Telemedicine@123",
+      "role": "patient",
+      "id": "aQ_ixeM5tnA"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Ananya Sharma",
+      "email": "doctor@medicare.com",
+      "phone": "9876543211",
+      "password": "Doc@111",
+      "role": "doctor",
+      "doctorId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Rahul Verma",
+      "email": "rahuldoctor@medicare.com",
+      "phone": "9123456788",
+      "password": "Doc@222",
+      "role": "doctor",
+      "doctorId": "2"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Priya Reddy",
+      "email": "priyadoctor@medicare.com",
+      "phone": "9123456787",
+      "password": "Doc@333",
+      "role": "doctor",
+      "doctorId": "3"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Arjun Mehta",
+      "email": "arjundoctor@medicare.com",
+      "phone": "9123456786",
+      "password": "Doc@444",
+      "role": "doctor",
+      "doctorId": "4"
+    },
+    {
+      "id": "6",
+      "name": "Dr. Sneha Rao",
+      "email": "snehadoctor@medicare.com",
+      "phone": "9123456789",
+      "password": "Doc@555",
+      "role": "doctor",
+      "doctorId": "5"
+    },
+    {
+      "id": "7",
+      "name": "Dr. Karthik Reddy",
+      "email": "karthikdoctor@medicare.com",
+      "phone": "9123456785",
+      "password": "Doc@666",
+      "role": "doctor",
+      "doctorId": "6"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Ananya Sharma",
+      "specialization": "Cardiologist",
+      "experience": 12,
+      "qualification": "MBBS, MD Cardiology",
+      "fee": 600,
+      "rating": 4.9,
+      "available": true,
+      "image": "https://randomuser.me/api/portraits/women/44.jpg",
+      "about": "Experienced cardiologist specializing in heart health and cardiovascular care."
+    },
+    {
+      "id": "2",
+      "name": "Dr. Rahul Verma",
+      "specialization": "Dermatologist",
+      "experience": 8,
+      "qualification": "MBBS, MD Dermatology",
+      "fee": 450,
+      "rating": 4.8,
+      "available": true,
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
+      "about": "Specialist in skin care, acne treatment and dermatological conditions."
+    },
+    {
+      "id": "3",
+      "name": "Dr. Priya Reddy",
+      "specialization": "Pediatrician",
+      "experience": 10,
+      "qualification": "MBBS, MD Pediatrics",
+      "fee": 500,
+      "rating": 4.7,
+      "available": true,
+      "image": "https://randomuser.me/api/portraits/women/68.jpg",
+      "about": "Dedicated pediatrician providing healthcare and wellness guidance for children."
+    },
+    {
+      "id": "4",
+      "name": "Dr. Arjun Mehta",
+      "specialization": "Neurologist",
+      "experience": 15,
+      "qualification": "MBBS, DM Neurology",
+      "fee": 800,
+      "rating": 4.9,
+      "available": true,
+      "image": "https://randomuser.me/api/portraits/men/75.jpg",
+      "about": "Experienced neurologist specializing in neurological health and patient care."
+    },
+    {
+      "id": "5",
+      "name": "Dr. Sneha Rao",
+      "specialization": "General Physician",
+      "experience": 7,
+      "qualification": "MBBS, MD General Medicine",
+      "fee": 350,
+      "rating": 4.6,
+      "available": true,
+      "image": "https://randomuser.me/api/portraits/women/65.jpg",
+      "about": "General physician offering consultations for common health concerns."
+    },
+    {
+      "id": "6",
+      "name": "Dr. Karthik Reddy",
+      "specialization": "Orthopedic",
+      "experience": 11,
+      "qualification": "MBBS, MS Orthopedics",
+      "fee": 550,
+      "rating": 4.8,
+      "available": true,
+      "image": "https://randomuser.me/api/portraits/men/46.jpg",
+      "about": "Orthopedic specialist focusing on bone, joint and muscle health."
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "aQ_ixeM5tnA",
+      "patientName": "Chaithanya",
+      "doctorId": "5",
+      "doctorName": "Dr. Sneha Rao",
+      "date": "2026-11-16",
+      "time": "03:00 PM",
+      "fee": 350,
+      "status": "Completed",
+      "paymentStatus": "Paid",
+      "id": "fB17GvWL2so",
+      "paymentMethod": "UPI",
+      "paymentDate": "2026-11-15T16:21:58.978Z"
+    },
+    {
+      "patientId": "aQ_ixeM5tnA",
+      "patientName": "Chaithanya",
+      "doctorId": "1",
+      "doctorName": "Dr. Ananya Sharma",
+      "date": "2026-11-16",
+      "time": "11:00 AM",
+      "fee": 600,
+      "status": "Completed",
+      "paymentStatus": "Paid",
+      "id": "j_VG7GhnI70",
+      "paymentMethod": "Card",
+      "paymentDate": "2026-11-15T16:54:51.292Z"
+    }
+  ],
+  "prescriptions": [
+    {
+      "patientId": "aQ_ixeM5tnA",
+      "doctorId": "5",
+      "doctorName": "Dr. Sneha Rao",
+      "appointmentId": "fB17GvWL2so",
+      "medicines": "Dolo 655",
+      "instructions": "morning, evening each",
+      "date": "2026-11-15",
+      "id": "M2gYmNkZy0A"
+    },
+    {
+      "patientId": "aQ_ixeM5tnA",
+      "doctorId": "1",
+      "doctorName": "Dr. Ananya Sharma",
+      "appointmentId": "j_VG7GhnI70",
+      "medicines": "Combiflam",
+      "instructions": "1 per meal",
+      "date": "2026-11-15",
+      "id": "y9JYn69SN2Y"
+    }
+  ],
+  "medicalReports": [
+    {
+      "patientId": "aQ_ixeM5tnA",
+      "doctorId": "5",
+      "doctorName": "Dr. Sneha Rao",
+      "appointmentId": "fB17GvWL2so",
+      "title": "Fever, Headache",
+      "description": "Looks some temp and mentioned headache",
+      "date": "2026-11-15",
+      "id": "XhnTiTI4YV8"
+    },
+    {
+      "patientId": "aQ_ixeM5tnA",
+      "doctorId": "1",
+      "doctorName": "Dr. Ananya Sharma",
+      "appointmentId": "j_VG7GhnI70",
+      "title": "Stronger pain and fever relief",
+      "description": "Stronger pain and fever relief",
+      "date": "2026-11-15",
+      "id": "yUkGOswWulI"
+    }
+  ],
+  "medicineReminders": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
